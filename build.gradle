@@ -1,0 +1,13 @@
+plugins {
+	id 'java-library'
+	id 'eclipse'
+}
+
+repositories {
+	jcenter()
+	maven { url "https://jitpack.io" }
+}
+
+dependencies {
+	implementation "com.github.marco-wehnert:playground-lib-a:1.0.0"
+}
